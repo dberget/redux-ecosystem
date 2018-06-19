@@ -1,0 +1,6 @@
+
+          window.__NEXT_REGISTER_PAGE('/subcategory', function() {
+            var comp = module.exports=webpackJsonp([5],{239:function(e,t,r){e.exports=r(240)},240:function(e,t,r){"use strict";function u(e){return e&&e.__esModule?e:{default:e}}Object.defineProperty(t,"__esModule",{value:!0});var n=r(21),a=u(n),s=r(26),c=u(s),o=r(0),l=u(o),f=r(75),d=u(f),i=r(71),p=u(i),b=r(116),h=u(b),v=function(e){var t=e.subject;return l.default.createElement(p.default,{header:t.categoryName},l.default.createElement(h.default,{resource:t.subcategory}))};v.getInitialProps=function(){var e=(0,c.default)(a.default.mark(function e(t){var r,u,n;return a.default.wrap(function(e){for(;;)switch(e.prev=e.next){case 0:return r=t.query.slug,e.next=3,(0,d.default)("http://localhost:3000/subcategory.json/"+r);case 3:return u=e.sent,e.next=6,u.json();case 6:return n=e.sent,e.abrupt("return",{subject:n});case 8:case"end":return e.stop()}},e,this)}));return function(t){return e.apply(this,arguments)}}(),t.default=v}},[239]);
+            return { page: comp.default }
+          })
+        
