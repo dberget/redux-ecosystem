@@ -63,5 +63,3 @@ typings/
 .env
 
 # Project specific
-database.json
-category-content-error.md
